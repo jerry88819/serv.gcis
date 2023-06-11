@@ -1,0 +1,16 @@
+{
+
+    "contactName": "張哲睿", 
+    "contactTel": "02-00000000#123",
+    "contactCel" : "0975000000",
+    "contactAddr" : "新北市",
+    "contactGetKind" : "郵寄",
+
+    "cmpyRemitEname" : "???",
+    
+    "orgnType": "股份有限公司",
+    "closeCheck": "是",
+
+    "companyName" : ["台積電", "聯電"]
+
+}
