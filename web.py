@@ -65,28 +65,23 @@ def pre() :
     with open('preload.json') as f:
         preload = json.load(f)
 
-    print(type(preload))
-    print(preload)
-    print(type(preload['one']))
-
-    if preload['one'] == 1 :
+    if preload['caseCode'] == "Z1" :
         applicant(driver)
-        if preload['two'] == 2 :
+        if preload['roleType'] == 2 :
             button = driver.find_element( By.XPATH, '/html/body/form/table/tbody/tr[2]/td/div/table[1]/tbody/tr[3]/td[2]/input[2]')
             button.click()
             legal_person(driver)
 
-    elif preload['one'] == 2 :
+    elif preload['caseCode'] == "Z2" :
         button = driver.find_element( By.XPATH, '/html/body/form/table/tbody/tr[2]/td/div/table[1]/tbody/tr[2]/td[2]/input[2]')
         button.click()
-        # sleep(1)
         applicant_company(driver)
 
-        if preload['two'] == 2 :
+        if preload['roleType'] == 2 :
             button = driver.find_element( By.XPATH, '/html/body/form/table/tbody/tr[2]/td/div/table[1]/tbody/tr[3]/td[2]/input[2]')
             button.click()
 
-    if preload['three'] == 2 : 
+    if preload['writerType'] == 2 : 
         button = driver.find_element( By.XPATH, '/html/body/form/table/tbody/tr[2]/td/div/table[1]/tbody/tr[5]/td[2]/input[2]')
         button.click()  
         agent(driver)   
@@ -139,6 +134,7 @@ def pre() :
         input_field = driver.find_element( By.NAME, temp ) 
         input_field.send_keys(normal_case['companyName'][i])
 
+    sleep(100)
     driver.quit()
 
 def main() :

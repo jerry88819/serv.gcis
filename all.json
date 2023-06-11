@@ -1,0 +1,34 @@
+{
+    "caseCode": "Z1", 
+    "roleType": 2, 
+    "writerType": 2,
+
+    "applyName": "張哲睿", 
+    "applyId": "A111111111",
+    "companyAddr": "新北市",
+
+    "banNo": "22099131",
+
+    "orgCorpName": "台灣積體電路製造股份有限公司", 
+    "orgCorpNo": "22099131",
+
+    "attorName": "張哲睿", 
+    "attorAttrib": "會計師", 
+    "attorId": "A111111111",
+    "attorNo": "xxxxx",
+    "attorAddr": "台北市",
+    "attorTel": "02-00000000#123",
+
+    "contactName": "張哲睿", 
+    "contactTel": "02-00000000#123",
+    "contactCel" : "0975000000",
+    "contactAddr" : "新北市",
+    "contactGetKind" : "郵寄",
+
+    "cmpyRemitEname" : "???",
+    
+    "orgnType": "股份有限公司",
+    "closeCheck": "是",
+
+    "companyName" : ["台積電", "聯電"]
+}
